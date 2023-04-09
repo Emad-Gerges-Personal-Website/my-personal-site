@@ -1,0 +1,128 @@
+ 
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.nav-media{
+    padding-top: 400px;
+}
+NAV{
+    display: flex;
+    padding: 4% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul a::after{
+content: '';
+width: 0%;
+height: 2px;
+background: #000000;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav-links ul a:hover::after{
+width: 100%;
+}
+.nav-media{
+    flex: 2;
+    text-align: center;
+    padding-top: 550px;
+}
+
+.fav{
+    font-size: 30px;
+    position: absolute;
+    left: 200px;
+    top: 140px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(42, 41, 33);
+    padding-left: 30px;   
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+    width: 1000px;
+    height: 120px;
+    background-color: rgba(255, 0, 0, 0.507);
+    }
+.travelpic{
+    
+     position: absolute;
+     left: 750px;
+     bottom: 22px;
+     border-radius: 25%;
+
+      
+    }
+.sport{
+    font-size: 30px;
+    position: absolute;
+    left: 200px;
+    top: 420px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(42, 41, 33);
+    padding-left: 30px;   
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+    width: 1000px;
+    height: 120px;
+    background-color: rgb(255, 0, 0, 0.507);
+    }
+.soccerpic{
+    
+     position: absolute;
+     left: 750px;
+     bottom: 22px;
+     border-radius: 25%;
+
+      
+    }
+
+    .nav-media ul a{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        padding-top: 0;
+        position: relative;
+    }
+    .nav-media ul a{
+        color: rgb(119, 32, 219);
+        text-decoration: brown;
+        font-size: 30px;
+    }
+    .nav-media ul a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    .nav-media ul a:hover::after{
+    width: 100%;
+    }
+
+
+
+
+
