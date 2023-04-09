@@ -59,14 +59,14 @@ width: 100%;
     font-size: 30px;
 }
 .nav-media ul a::after{
-content: '';
-width: 0%;
-height: 2px;
-background: #000000;
-display: block;
-margin: auto;
-transition: 0.5s;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
 .nav-media ul a:hover::after{
-width: 100%;
+    width: 100%;
 }

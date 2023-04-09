@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
-
 }
 .nav-media{
     padding-top: 400px;
@@ -31,13 +30,13 @@ NAV{
     font-size: 20px;
 }
 .nav-links ul a::after{
-content: '';
-width: 0%;
-height: 2px;
-background: #000000;
-display: block;
-margin: auto;
-transition: 0.5s;
+ content: '';
+ width: 0%;
+ height: 2px;
+ background: #000000;
+ display: block;
+ margin: auto;
+ transition: 0.5s;
 }
 .nav-links ul a:hover::after{
 width: 100%;
@@ -60,26 +59,23 @@ width: 100%;
     font-size: 30px;
 }
 .nav-media ul a::after{
-content: '';
-width: 0%;
-height: 2px;
-background: #000000;
-display: block;
-margin: auto;
-transition: 0.5s;
+ content: '';
+ width: 0%;
+ height: 2px;
+ background: #000000;
+ display: block;
+ margin: auto;
+ transition: 0.5s;
 }
 .nav-media ul a:hover::after{
-width: 100%;
+ width: 100%;
 }
-
-
 .Edit-logo{
     width: 16%;
     position: relative;
     left: 20px;
     top: 153px;
 }
-
 .layer{       
     background: transparent;
     height: 100%;
@@ -117,81 +113,67 @@ h3{
     bottom: 18px;
     }
     
-    .travel{
-        font-size: 20px;
-        position: absolute;
-        left: 200px;
-        top: 450px;
-        color: rgb(42, 41, 33);
-        
-        border: 2px solid rgb(42, 41, 33);
-        padding-left: 20px;
-        padding-top: 100px;
-        padding-bottom: 20px;
-        margin: 20px 0px;
-        width: 1000px;
-        height: 150px;
-        background-color: rgb(215, 234, 227);
-    }
-    .travelpic{
-    
-        
-        position: absolute;
-        left: 730px;
-        bottom: 18px;
-        }
-
-    .lerning{
-            font-size: 20px;
-            position: absolute;
-            left: 200px;
-            top: 750px;
-            color: rgb(42, 41, 33);
-            
-            border: 2px solid rgb(42, 41, 33);
-            padding-left: 20px;
-            padding-top: 100px;
-            padding-bottom: 20px;
-            margin: 20px 0px;
-            width: 1000px;
-            height: 150px;
-            background-color: rgb(215, 234, 227);
-        }
-    .lerningpic{
-        
-            
-            position: absolute;
-            left: 730px;
-            bottom: 18px;
-            }    
+.travel{
+  font-size: 20px;
+  position: absolute;
+  left: 200px;
+  top: 450px;
+  color: rgb(42, 41, 33);
+  border: 2px solid rgb(42, 41, 33);
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin: 20px 0px;
+  width: 1000px;
+  height: 150px;
+  background-color: rgb(215, 234, 227);
+ }
+.travelpic{        
+  position: absolute;
+  left: 730px;
+  bottom: 18px;
+ }
+.lerning{
+  font-size: 20px;
+  position: absolute;
+  left: 200px;
+  top: 750px;
+  color: rgb(42, 41, 33);
+  border: 2px solid rgb(42, 41, 33);
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin: 20px 0px;
+  width: 1000px;
+  height: 150px;
+  background-color: rgb(215, 234, 227);
+ }
+.lerningpic{            
+  position: absolute;
+  left: 730px;
+  bottom: 18px;
+ }    
 .layer:hover{
-    background: rgba(215, 238, 249, 0.9);
-
+  background: rgba(215, 238, 249, 0.9);
 }
-
 .Edit-logo-01{
-    width: 16%;
-    position: relative;
-    left: 300px;
-}
-
-
+  width: 16%;
+  position: relative;
+  left: 300px;
+ }
 .layer-01{       
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s
-  
-}
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s  
+ }
 h3{
-    position: absolute;
-    left: 50px;    
-}
+  position: absolute;
+  left: 50px;    
+ }
 .layer:hover-01{
-    background: rgba(215, 238, 249, 0.9);
-    
-
-}
+  background: rgba(215, 238, 249, 0.9);
+ }
