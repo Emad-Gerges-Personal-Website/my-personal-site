@@ -41,74 +41,35 @@ transition: 0.5s;
 .nav-links ul a:hover::after{
 width: 100%;
 }
-.nav-media{
-    flex: 2;
-    text-align: center;
-    padding-top: 550px;
+
+
+
+
+.nav-media ul a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-media ul a{
+    color: rgb(119, 32, 219);
+    text-decoration: brown;
+    font-size: 30px;
 }
 
-.fav{
-    font-size: 30px;
-    position: absolute;
-    left: 200px;
-    top: 140px;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(42, 41, 33);
-    padding-left: 30px;   
-    padding-top: 100px;
-    padding-bottom: 20px;
-    margin: 20px 0px;
-    width: 1000px;
-    height: 120px;
-    background-color: rgba(255, 0, 0, 0.507);
-    }
-.travelpic{
-    
-     position: absolute;
-     left: 750px;
-     bottom: 22px;
-     border-radius: 25%;
-
-      
-    }
-.sport{
-    font-size: 30px;
-    position: absolute;
-    left: 200px;
-    top: 420px;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(42, 41, 33);
-    padding-left: 30px;   
-    padding-top: 100px;
-    padding-bottom: 20px;
-    margin: 20px 0px;
-    width: 1000px;
-    height: 120px;
-    background-color: rgb(255, 0, 0, 0.507);
-    }
-.soccerpic{
-    
-     position: absolute;
-     left: 750px;
-     bottom: 22px;
-     border-radius: 25%;
-
-      
-    }
-
-    .nav-media ul a{
-        list-style: none;
-        display: inline-block;
-        padding: 8px 12px;
-        padding-top: 0;
-        position: relative;
-    }
-    .nav-media ul a{
-        color: rgb(119, 32, 219);
-        text-decoration: brown;
-        font-size: 30px;
-    }
-    .nav-media ul a::after{
+ .nav-media {
+    box-sizing: border-box;
+    position: fixed;
+    height: 100px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+    background-color: lavender;
+}
+.nav-media ul a::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -116,9 +77,58 @@ width: 100%;
     display: block;
     margin: auto;
     transition: 0.5s;
-    }
-    .nav-media ul a:hover::after{
+   }
+   .nav-media ul a:hover::after{
     width: 100%;
-    }
+   }
 
+form{
+    margin-top: 100px;
+    transition: all 5s ease-in-out;
+    text-align: center;
+    padding: 0% 20% 0%;
+
+}
+.form-control{
+    width: 800px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid blueviolet;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+input{
+    height: 50px;
+}
+
+.Contact-title{
+    font-size: 40px;
+    text-align: center;
+    color: aquamarine;
+    font-family: cursive;
+    font-style: oblique;
+}
+.form-control-Submit{
+    background-color: rgb(229, 229, 240);
+    cursor: pointer;
+    content: '';
+    width: 800px;
+    height: 50px;
+    background: #d00909;
+    display: block;
+    margin: auto;
+    transition: 1s;
+    font-size: 20px;
     
+}
+.form-control-Submit:hover{
+    background-color: darkseagreen;
+    cursor: pointer;
+}
+p{
+color:rgb(119, 32, 219);
+font-size: 25px;
+text-align: center;
+}
