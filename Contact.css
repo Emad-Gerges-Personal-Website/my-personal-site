@@ -87,6 +87,7 @@ form{
     transition: all 5s ease-in-out;
     text-align: center;
     padding: 0% 20% 0%;
+    grid-template-columns: auto;
 
 }
 .form-control{
