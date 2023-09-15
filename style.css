@@ -76,7 +76,7 @@ transition: 0.5s;
    .nav-media ul a:hover::after{
     width: 100%;
    }
+
 @media screen {
-    width: 600px;
-    height: 400px;
+    
 }
